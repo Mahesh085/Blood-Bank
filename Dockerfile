@@ -1,4 +1,4 @@
-FROM node:23-alphine as application
+FROM node:23-alpine as application
 WORKDIR /BB-APP
 COPY package*.json ./
 RUN npm install
